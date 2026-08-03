@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roots & Evergreen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Spectral:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+  <div class="geometry-pattern" aria-hidden="true"></div>
+  <div class="bottom-mask" aria-hidden="true"></div>
+  <img id="topRightLeafImage" class="leaf-corner leaf-top-right leaf-image" src="assets/alpha_top_right_leaves_full.png" alt="" aria-hidden="true" />
+  <svg id="topRightLeafFallback" class="leaf-corner leaf-top-right leaf-fallback" viewBox="0 0 300 220" aria-hidden="true">
+    <g fill="#627951" opacity="0.92">
+      <ellipse cx="235" cy="36" rx="34" ry="13" transform="rotate(30 235 36)" />
+      <ellipse cx="208" cy="64" rx="36" ry="13" transform="rotate(16 208 64)" />
+      <ellipse cx="178" cy="88" rx="34" ry="12" transform="rotate(8 178 88)" />
+      <ellipse cx="152" cy="112" rx="30" ry="11" transform="rotate(-7 152 112)" />
+      <ellipse cx="255" cy="78" rx="32" ry="12" transform="rotate(42 255 78)" />
+      <ellipse cx="233" cy="106" rx="30" ry="11" transform="rotate(30 233 106)" />
+      <ellipse cx="212" cy="132" rx="26" ry="10" transform="rotate(20 212 132)" />
+      <ellipse cx="128" cy="74" rx="24" ry="9" transform="rotate(-20 128 74)" />
+    </g>
+    <path d="M248 18 C238 62, 214 95, 182 132" stroke="#6f8560" stroke-width="3" fill="none" opacity="0.86" />
+    <path d="M224 45 C210 86, 190 120, 157 153" stroke="#6f8560" stroke-width="2.4" fill="none" opacity="0.86" />
+  </svg>
+
+  <img id="bottomLeftLeafImage" class="leaf-corner leaf-bottom-left leaf-image" src="assets/alpha_bottom_left_leaves_v2.png" alt="" aria-hidden="true" />
+  <img id="watercolorImage" class="watercolor-image" src="assets/alpha_watercolors.png" alt="" aria-hidden="true" />
+  <svg id="bottomLeftLeafFallback" class="leaf-corner leaf-bottom-left leaf-fallback" viewBox="0 0 320 260" aria-hidden="true">
+    <g fill="#6a8057" opacity="0.94">
+      <ellipse cx="76" cy="102" rx="36" ry="13" transform="rotate(-32 76 102)" />
+      <ellipse cx="104" cy="130" rx="34" ry="12" transform="rotate(-16 104 130)" />
+      <ellipse cx="132" cy="156" rx="32" ry="12" transform="rotate(-8 132 156)" />
+      <ellipse cx="160" cy="184" rx="30" ry="11" transform="rotate(3 160 184)" />
+      <ellipse cx="54" cy="142" rx="30" ry="11" transform="rotate(-40 54 142)" />
+      <ellipse cx="84" cy="172" rx="30" ry="11" transform="rotate(-24 84 172)" />
+      <ellipse cx="115" cy="200" rx="28" ry="10" transform="rotate(-12 115 200)" />
+      <ellipse cx="194" cy="150" rx="24" ry="9" transform="rotate(20 194 150)" />
+    </g>
+    <path d="M18 78 C56 112, 92 150, 146 210" stroke="#6f8560" stroke-width="3" fill="none" opacity="0.88" />
+    <path d="M40 66 C76 100, 122 148, 186 204" stroke="#6f8560" stroke-width="2.4" fill="none" opacity="0.88" />
+  </svg>
+
+  <main class="hero" id="mainPage" aria-live="polite">
+    <h1 class="brand-title">
+      <img id="wordmarkImage" class="wordmark-image" src="assets/alpha_wordmark.png" alt="Roots and Evergreen" />
+      <span id="wordmarkFallback" class="wordmark-fallback hidden">
+        <span class="brand-main">Roots</span>
+        <span class="brand-amp">&amp;</span>
+        <span class="brand-main">Evergreen</span>
+      </span>
+    </h1>
+
+    <div class="gold-divider top-divider" aria-hidden="true">
+      <span></span>
+      <img class="line-leaf" src="assets/alpha_button_leaf.png" alt="" />
+      <span></span>
+    </div>
+
+    <div class="logo-wrap" aria-label="Roots and Evergreen symbol">
+      <img id="logoImage" class="logo-image" src="assets/clean_logo.png" alt="Roots and Evergreen logo" />
+      <svg id="logoFallback" class="logo logo-fallback" viewBox="0 0 200 200" role="img" aria-labelledby="logoTitle">
+        <title id="logoTitle">Roots and Evergreen logo</title>
+        <circle cx="100" cy="100" r="86" fill="none" stroke="#17392a" stroke-width="4" />
+        <line x1="40" y1="106" x2="160" y2="106" stroke="#17392a" stroke-width="3" />
+        <path d="M99 72 C93 58, 75 56, 66 66 C72 64, 79 67, 82 74 C83 64, 92 59, 99 63 C106 59, 115 64, 116 74 C119 67, 126 64, 132 66 C123 56, 105 58, 99 72 Z" fill="#264f2f" />
+        <path d="M96 70 C78 53, 53 59, 44 79 C52 74, 62 75, 68 84 C70 71, 81 66, 96 70 Z" fill="#325f39" />
+        <path d="M102 70 C120 53, 145 59, 154 79 C146 74, 136 75, 130 84 C128 71, 117 66, 102 70 Z" fill="#325f39" />
+        <path d="M100 64 C100 82, 100 94, 100 106" stroke="#17392a" stroke-width="5" fill="none" stroke-linecap="round" />
+        <path d="M100 76 C90 79, 80 86, 73 94" stroke="#17392a" stroke-width="3" fill="none" />
+        <path d="M100 76 C110 79, 120 86, 127 94" stroke="#17392a" stroke-width="3" fill="none" />
+        <g fill="#355f3a">
+          <ellipse cx="56" cy="82" rx="7" ry="4" transform="rotate(-20 56 82)" />
+          <ellipse cx="68" cy="73" rx="7" ry="4" transform="rotate(5 68 73)" />
+          <ellipse cx="79" cy="68" rx="7" ry="4" transform="rotate(18 79 68)" />
+          <ellipse cx="90" cy="63" rx="7" ry="4" transform="rotate(24 90 63)" />
+          <ellipse cx="111" cy="63" rx="7" ry="4" transform="rotate(-24 111 63)" />
+          <ellipse cx="122" cy="68" rx="7" ry="4" transform="rotate(-18 122 68)" />
+          <ellipse cx="133" cy="73" rx="7" ry="4" transform="rotate(-5 133 73)" />
+          <ellipse cx="145" cy="82" rx="7" ry="4" transform="rotate(20 145 82)" />
+          <ellipse cx="63" cy="91" rx="7" ry="4" transform="rotate(12 63 91)" />
+          <ellipse cx="137" cy="91" rx="7" ry="4" transform="rotate(-12 137 91)" />
+        </g>
+        <path d="M100 106 C100 124, 100 137, 100 151" stroke="#7f5f34" stroke-width="3" fill="none" stroke-linecap="round" />
+        <path d="M100 114 C92 125, 84 133, 74 142" stroke="#8f6d3f" stroke-width="2.6" fill="none" />
+        <path d="M100 114 C108 125, 116 133, 126 142" stroke="#8f6d3f" stroke-width="2.6" fill="none" />
+        <path d="M90 126 C82 131, 76 138, 71 146" stroke="#9a7c4e" stroke-width="2" fill="none" />
+        <path d="M110 126 C118 131, 124 138, 129 146" stroke="#9a7c4e" stroke-width="2" fill="none" />
+        <path d="M100 124 C100 136, 100 142, 100 153" stroke="#8f6d3f" stroke-width="2.2" fill="none" />
+      </svg>
+    </div>
+
+    <section class="message-shell" aria-label="About Roots and Evergreen">
+      <img id="smallLeafTop" class="small-leaf small-leaf-top" src="assets/alpha_small_leaf.png" alt="" aria-hidden="true" />
+      <img id="smallLeafBottom" class="small-leaf small-leaf-bottom" src="assets/alpha_small_leaf.png" alt="" aria-hidden="true" />
+      <div class="message-inner">
+        <div class="intro-ornament" aria-hidden="true">
+          <span></span>
+          <img src="assets/alpha_button_leaf.png" alt="" />
+          <span></span>
+        </div>
+        <p>
+          We help businesses build strong foundations through thoughtful systems,
+          dependable support, and sustainable growth.
+        </p>
+        <div class="inner-divider" aria-hidden="true"></div>
+        <p>
+          We exist to help business owners spend more time growing their business
+          and less time managing everything behind the scenes.
+        </p>
+      </div>
+    </section>
+
+    <p class="cta-subtext">Plant the first seed and Contact us.</p>
+
+    <button id="openContact" class="seed-btn" type="button">
+      <img id="seedIconImage" class="seed-icon-image" src="assets/alpha_button_leaf_v2.png" alt="" aria-hidden="true" />
+      <svg id="seedIconFallback" class="seed-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 21 C11 16, 11 13, 12 9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+        <path d="M11.9 10 C9.4 9, 7.7 7, 7.2 4.5 C10 4.5, 12 5.7, 12.9 8.3" fill="currentColor" />
+        <path d="M12.1 10 C14.6 9, 16.3 7, 16.8 4.5 C14 4.5, 12 5.7, 11.1 8.3" fill="currentColor" />
+      </svg>
+      <span>Plant the First Seed</span>
+    </button>
+  </main>
+
+  <section class="overlay" id="contactOverlay" aria-hidden="true">
+    <div class="overlay-dim" id="overlayDim"></div>
+
+    <div class="contact-modal" role="dialog" aria-modal="true" aria-labelledby="contactTitle">
+      <h2 class="modal-brand">Roots <span aria-hidden="true">&amp;</span> Evergreen</h2>
+
+      <section class="modal-shell">
+        <button id="closeContact" class="close-modal" type="button" aria-label="Close contact form">×</button>
+        <h3 id="contactTitle">Contact Us</h3>
+
+        <form id="contactForm" class="contact-form" action="https://formsubmit.co/ajax/rootsandevergreen@gmail.com" method="POST">
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_subject" value="New Roots & Evergreen Contact Form Submission" />
+          <input type="hidden" name="_template" value="table" />
+
+          <label class="sr-only" for="name">Your name</label>
+          <input id="name" name="Name" type="text" placeholder="Your name" required />
+
+          <label class="sr-only" for="business">Business name (optional)</label>
+          <input id="business" name="Business" type="text" placeholder="Business name (optional)" />
+
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" name="Email" type="email" placeholder="Email address" required />
+
+          <label class="sr-only" for="message">How can we help?</label>
+          <textarea id="message" name="Message" rows="4" placeholder="How can we help?" required></textarea>
+
+          <button id="sendBtn" type="submit" class="send-btn">Send</button>
+          <button id="cancelBtn" type="button" class="cancel-btn">Cancel</button>
+          <p class="privacy-note">Your information is secure and never shared.</p>
+        </form>
+      </section>
+    </div>
+
+    <div id="thankYou" class="thank-you" aria-hidden="true">
+      <div class="thanks-shell">
+        <h3>Let’s grow something together.</h3>
+        <p>Thank you.<br />We’ll be in touch soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
